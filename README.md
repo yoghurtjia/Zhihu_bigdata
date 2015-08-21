@@ -1,5 +1,5 @@
 # overview
-使用scrapy和pandas完成对知乎300w用户的数据分析。首先使用scrapy爬取知乎网的300w，用户资料，   
+使用scrapy和pandas完成对知乎300w用户的数据分析。首先使用scrapy爬取知乎网的100w，用户资料，   
 最后使用pandas对数据进行过滤，找出想要的知乎大牛，并用图表的形式可视化。  
 #requirments:
 os:win7 64bit  
@@ -26,6 +26,6 @@ most_good_topic #最感兴趣的话题
 ##关于爬虫方面的疑问，请参考这个链接：  
 [使用scrapy模拟登陆知乎](http://www.jianshu.com/p/b7f41df6202d)   
 ##使用pandas对user.json进行数据分析，以及可视化。
-关于这部分的代码，我全部放在data_analysis.ipynb，只要计算机上安装了ipython notebook，就可以打开，重现计算结果
+关于这部分的代码，我全部放在'使用pandas对数据进行分析'这个文件下，只要计算机上安装了ipython notebook，就可以打开，重现计算结果，也可以直接打开里面的.html文件。
                             
 
